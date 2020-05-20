@@ -41,7 +41,9 @@ ssh-copy-id $IP  # $IP 为所有节点地址包括自身，按照提示输入 ye
 ./easzup -S
 ```
 
-- 4.2 使用默认配置安装 aio 集群
+- 4.2 修改配置文件/etc/ansible/example/hosts.allinone
+
+- 4.3 安装 aio 集群
 
 ```
 docker exec -it kubeasz easzctl start-aio
