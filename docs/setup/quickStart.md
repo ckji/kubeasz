@@ -41,7 +41,7 @@ ssh-copy-id $IP  # $IP 为所有节点地址包括自身，按照提示输入 ye
 ./easzup -S
 ```
 
-- 4.2 修改配置文件/etc/ansible/example/hosts.allinone
+- 4.2 修改配置文件/etc/ansible/example/hosts.allinone (确保docker的cgroupdriver与kubelet一致)
 
 - 4.3 安装 aio 集群
 
